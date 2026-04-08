@@ -4,3 +4,9 @@ def greet(name):
 if __name__ == "__main__":
     print(greet("World"))
     print(greet("GitHub"))
+
+def farewell(name):
+    return f"Goodbye, {name}!"
+
+if __name__ == "__main__":
+    print(farewell("World"))
